@@ -1,4 +1,4 @@
-# bank_customer_classification
+# Classifying customers of a Portuguese bank
 Aim of project is to understand and predict customer behaviour. The data is about direct marketing campaigns, based on phone calls, of a Portuguese banking institution. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed. The data was obtained from https://archive.ics.uci.edu/ml/datasets/Bank%2BMarketing.
 
 # Input variables:
