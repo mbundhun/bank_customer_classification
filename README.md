@@ -29,3 +29,9 @@ Aim of project is to understand and predict customer behaviour. The data is abou
 
 # Output variable (desired target):
 21 - y - has the client subscribed a term deposit? (binary: 'yes','no')
+
+# Data exploration
+The dataset containts 41188 rows and 21 columns, as described above. Do the rows contain different marketing call information on the same customer? -> this has to be checked; there is no indication on that. It is interesting to also note that the variable 'duration' is an endogenous variable. This is because, customers who will agree to a term deposit will naturally talk more on the phone, while someone who will say no to a term deposit will do that rather quickly. Hence, the duration is more of an outcome of their decision to say yes or no to the term deposit. \
+![image](https://user-images.githubusercontent.com/48698645/109701177-03420780-7b93-11eb-8b34-88af0ec7598b.png)
+
+
