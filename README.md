@@ -38,5 +38,6 @@ It would be interesting to look at how many customer were contacted over 2008 - 
 ![image](https://user-images.githubusercontent.com/48698645/110029441-c281f400-7d34-11eb-8e0c-7538aa6f1494.png)
 
 Next, it would be interesting to see if there are any variables that can already explain the differences in the subscription behaviour. Down below, there is a pair plot of features that describe the customer, and each observation is categorised according to the output variable (y). Keep in mind that there are more than 40,000 data points, of which only 11% are term-deposit subscribers. So that graph might not be that clear.\
-![image](https://user-images.githubusercontent.com/48698645/110030836-7637b380-7d36-11eb-8318-603752f8e39f.png)
+![image](https://user-images.githubusercontent.com/48698645/110030902-8cde0a80-7d36-11eb-9a26-1947cbe697f3.png)
+
 
