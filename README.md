@@ -32,6 +32,9 @@ Aim of project is to understand and predict customer behaviour. The data is abou
 
 # Data exploration
 The dataset containts 41188 rows and 21 columns, as described above. So question?: Are there rows that contain different marketing call information on the same customer? I have found no indication on that. It is interesting to also note that the variable 'duration' is an endogenous variable. This is because, customers who will agree to a term deposit will naturally talk more on the phone, while someone who will say no to a term deposit will do that rather quickly. Hence, the duration is more of an outcome of their decision to say yes or no to the term deposit. The difference in the call duration is shown in the density plot below.\
-![image](https://user-images.githubusercontent.com/48698645/109701177-03420780-7b93-11eb-8b34-88af0ec7598b.png)
+![image](https://user-images.githubusercontent.com/48698645/109701177-03420780-7b93-11eb-8b34-88af0ec7598b.png)\
+
+It would be interesting to look at how many customer were contacted over 2008 - 2010. As the data was sorted according to the data, I could create an approximately accurate indication of the specific dates for each observation. The date variable was generated using the _month_ and _day_of_week_ variables. The accuracy of those was validated and as contacts were done almost daily from March till December, the generated dates fitted the calendar really well such that the month has the correct number of days and that the day of month was coincided on the correct day of week. However, only the period around september/october wasnt clear as there seemed to be a break in the marketing campaign. However it was determined that this wouldnt affect the findingds from the time series. Down below is a graph that shows the total number of contacts performed per week. as the graph shows, Most of the contact, which is actually 67%, was done in 2008.\
+![image](https://user-images.githubusercontent.com/48698645/110029441-c281f400-7d34-11eb-8e0c-7538aa6f1494.png)
 
 
