@@ -32,14 +32,15 @@ Aim of project is to understand, classify the customers and predict their behavi
 
 # Data exploration
 The dataset containts 41188 rows and 21 columns, as described above. So question?: Are there rows that contain different marketing call information on the same customer? I have found no indication on that. So each row is interpreted as a unique customer/clients. Overall, there were 11% of clients who subscribed to a term deposit via this marketing campaign. It is interesting to also note that the variable 'duration' is an endogenous variable. This is because, customers who will agree to a term deposit will naturally talk more on the phone, while someone who will say no to a term deposit will do that rather quickly. Hence, the duration is more of an outcome of their decision to say yes or no to the term deposit. The difference in the call duration is shown in the density plot below.\
-![image](https://user-images.githubusercontent.com/48698645/109701177-03420780-7b93-11eb-8b34-88af0ec7598b.png)\
+![image](https://user-images.githubusercontent.com/48698645/109701177-03420780-7b93-11eb-8b34-88af0ec7598b.png)
 
 It would be interesting to look at how many customer were contacted over 2008 - 2010. As the data was sorted according to the data, I could create an approximately accurate indication of the specific dates for each observation. The date variable was generated using the _month_ and _day_of_week_ variables. The accuracy of those was validated and as contacts were done almost daily from March till December, the generated dates fitted the calendar really well such that the month has the correct number of days and that the day of month was coincided on the correct day of week. However, only the period around september/october wasnt clear as there seemed to be a break in the marketing campaign. However it was determined that this wouldnt affect the findingds from the time series. Down below is a graph that shows the total number of contacts performed per week. as the graph shows, Most of the contact, which is actually 67%, was done in 2008.\
 ![image](https://user-images.githubusercontent.com/48698645/110029441-c281f400-7d34-11eb-8e0c-7538aa6f1494.png)
 
 Next, it would be interesting to see if there are any variables that can already explain the differences in the subscription behaviour. Down below, there are pair plots of numeric features that describe the customer, and each observation is categorised according to the output variable (y). Keep in mind that there are more than 40,000 data points, of which only 11% are term-deposit subscribers. So that graph might not be that clear.\
-![image](https://user-images.githubusercontent.com/48698645/110147139-9a010500-7ddb-11eb-95e7-a3e3caab8503.png)
+![image](https://user-images.githubusercontent.com/48698645/110150928-1d245a00-7de0-11eb-9bb5-8cc3eb772020.png)
+
 Down below is a pairplot of the economic and social features.
 ![image](https://user-images.githubusercontent.com/48698645/110147550-1d225b00-7ddc-11eb-8a33-92db167383d0.png)
-With these many datapoints, it is more difficult to find any pattern from the scatterplots. The density plots are more interesting to look at.
+With these many datapoints, it is more difficult to find any pattern from the scatterplots. The density plots are more interesting to look at. We see that clients older than 60 are more interested in a term deposit on average. Another interesting finding is that it doesnt help to contact the client more than 23 times in this campaign, as no client contacted more than 23 times subscribed to the term deposit. So this is a improvement that the bank can already do for their next campaign.
 
