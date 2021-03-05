@@ -42,5 +42,6 @@ Next, it would be interesting to see if there are any variables that can already
 
 Down below is a pairplot of the economic and social features.
 ![image](https://user-images.githubusercontent.com/48698645/110147550-1d225b00-7ddc-11eb-8a33-92db167383d0.png)
-With these many datapoints, it is more difficult to find any pattern from the scatterplots. The density plots are more interesting to look at. We see that clients older than 60 are more interested in a term deposit on average. Another interesting finding is that it doesnt help to contact the client more than 23 times in this campaign, as no client contacted more than 23 times subscribed to the term deposit. So this is a improvement that the bank can already do for their next campaign.
+With these many datapoints, it is more difficult to find any pattern from the scatterplots. The density plots are more interesting to look at. We see that clients older than 60 are more interested in a term deposit on average. Another interesting finding is that it doesnt help to contact the client more than 23 times in this campaign, as no client contacted more than 23 times subscribed to the term deposit. So this is a improvement that the bank can already do for their next campaign. It is not so interesting to look at the density plot of pdays. From the density of the economic and social variables, clients are more likely to subscribe when the employment variation rate , the euribor and the nr. of employed is lower, and when the consumer confidence index is higher. (is this what we expected?)
+
 
