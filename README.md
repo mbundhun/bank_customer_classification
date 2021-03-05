@@ -6,7 +6,7 @@ Aim of project is to understand, classify the customers and predict their behavi
 1 - age (numeric)<br/>
 2 - job : type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')<br/>
 3 - marital : marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)<br/>
-4 - education (categorical: 'basic.4y','basic.6y','basic.9y','high.school','illiterate','professional.course','university.degree','unknown')<br/>
+4 - education (categorical: 'basic.4y', 'basic.6y', 'basic.9y', 'high.school', 'illiterate', 'professional.course', 'university.degree', 'unknown')<br/>
 5 - default: has credit in default? (categorical: 'no','yes','unknown')<br/>
 6 - housing: has housing loan? (categorical: 'no','yes','unknown')<br/>
 7 - loan: has personal loan? (categorical: 'no','yes','unknown')
