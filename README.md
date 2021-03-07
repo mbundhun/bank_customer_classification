@@ -34,14 +34,15 @@ Aim of project is to understand, classify the customers and predict their behavi
 The dataset containts 41188 rows and 21 columns, as described above. So question?: Are there rows that contain different marketing call information on the same customer? I have found no indication on that. So each row is interpreted as a unique customer/clients. Overall, there were 11% of clients who subscribed to a term deposit via this marketing campaign. It is interesting to also note that the variable 'duration' is an endogenous variable. This is because, customers who will agree to a term deposit will naturally talk more on the phone, while someone who will say no to a term deposit will do that rather quickly. Hence, the duration is more of an outcome of their decision to say yes or no to the term deposit. The difference in the call duration is shown in the density plot below.
 ![image](https://user-images.githubusercontent.com/48698645/109701177-03420780-7b93-11eb-8b34-88af0ec7598b.png)
 
-|age |	campaign |	pdays |	previous |	emp.var.rate |	cons.price.idx |	cons.conf.idx |	euribor3m |	nr.employed |	/
-|mean |	40 |	3 |	962 |	0 |	0.1 |	93.6 |	-40.5 |	3.6 |	5167 |	/
-|std |	10 |	3 |	187 |	0 |	1.6 |	0.6 |	4.6 |	1.7 |	72 |	/
-|min |	17 |	1 |	0 |	0 |	-3.4 |	92.2 |	-50.8 |	0.6 |	4964 |	/
-|25% |	32 |	1 |	999 |	0 |	-1.8 |	93.1 |	-42.7 |	1.3 |	5099 |	/
-|50% |	38 |	2 |	999 |	0 |	1.1 |	93.7 |	-41.8 |	4.9 |	5191 |	/
-|75% |	47 |	3 |	999 |	0 |	1.4 |	94.0 |	-36.4 |	5.0 |	5228 |	/
-|max |	98 |	56 |	999 |	7 |	1.4 |	94.8 |	-26.9 |	5.0 |	5228 | /
+|age |	campaign |	pdays |	previous |	emp.var.rate |	cons.price.idx |	cons.conf.idx |	euribor3m |	nr.employed |
+|----|-----------|--------|----------|---------------|-----------------|----------------|-----------|-------------|
+|mean |	40 |	3 |	962 |	0 |	0.1 |	93.6 |	-40.5 |	3.6 |	5167 |
+|std |	10 |	3 |	187 |	0 |	1.6 |	0.6 |	4.6 |	1.7 |	72 |
+|min |	17 |	1 |	0 |	0 |	-3.4 |	92.2 |	-50.8 |	0.6 |	4964 |
+|25% |	32 |	1 |	999 |	0 |	-1.8 |	93.1 |	-42.7 |	1.3 |	5099 |
+|50% |	38 |	2 |	999 |	0 |	1.1 |	93.7 |	-41.8 |	4.9 |	5191 |
+|75% |	47 |	3 |	999 |	0 |	1.4 |	94.0 |	-36.4 |	5.0 |	5228 |
+|max |	98 |	56 |	999 |	7 |	1.4 |	94.8 |	-26.9 |	5.0 |	5228 |
 
 
 
