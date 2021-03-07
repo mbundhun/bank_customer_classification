@@ -34,16 +34,15 @@ Aim of project is to understand, classify the customers and predict their behavi
 The dataset containts 41188 rows and 21 columns, as described above. So question?: Are there rows that contain different marketing call information on the same customer? I have found no indication on that. So each row is interpreted as a unique customer/clients. Overall, there were 11% of clients who subscribed to a term deposit via this marketing campaign. It is interesting to also note that the variable 'duration' is an endogenous variable. This is because, customers who will agree to a term deposit will naturally talk more on the phone, while someone who will say no to a term deposit will do that rather quickly. Hence, the duration is more of an outcome of their decision to say yes or no to the term deposit. The difference in the call duration is shown in the density plot below.
 ![image](https://user-images.githubusercontent.com/48698645/109701177-03420780-7b93-11eb-8b34-88af0ec7598b.png)
 
-	age	campaign	pdays	previous	emp.var.rate	cons.price.idx	cons.conf.idx	euribor3m	nr.employed
-count	41188	41188	41188	41188	41188	41188	41188	41188	41188
-mean	40	3	962	0	0.1	93.6	-40.5	3.6	5167
-std	10	3	187	0	1.6	0.6	4.6	1.7	72
-min	17	1	0	0	-3.4	92.2	-50.8	0.6	4964
-25%	32	1	999	0	-1.8	93.1	-42.7	1.3	5099
-50%	38	2	999	0	1.1	93.7	-41.8	4.9	5191
-75%	47	3	999	0	1.4	94.0	-36.4	5.0	5228
-max	98	56	999	7	1.4	94.8	-26.9	5.0	5228
-![image](https://user-images.githubusercontent.com/48698645/110242001-2fbfa000-7f54-11eb-9da4-d21c09b898ee.png)
+|age |	campaign |	pdays |	previous |	emp.var.rate |	cons.price.idx |	cons.conf.idx |	euribor3m |	nr.employed |	/
+|mean |	40 |	3 |	962 |	0 |	0.1 |	93.6 |	-40.5 |	3.6 |	5167 |	/
+|std |	10 |	3 |	187 |	0 |	1.6 |	0.6 |	4.6 |	1.7 |	72 |	/
+|min |	17 |	1 |	0 |	0 |	-3.4 |	92.2 |	-50.8 |	0.6 |	4964 |	/
+|25% |	32 |	1 |	999 |	0 |	-1.8 |	93.1 |	-42.7 |	1.3 |	5099 |	/
+|50% |	38 |	2 |	999 |	0 |	1.1 |	93.7 |	-41.8 |	4.9 |	5191 |	/
+|75% |	47 |	3 |	999 |	0 |	1.4 |	94.0 |	-36.4 |	5.0 |	5228 |	/
+|max |	98 |	56 |	999 |	7 |	1.4 |	94.8 |	-26.9 |	5.0 |	5228 | /
+
 
 
 It would be interesting to look at how many customer were contacted over 2008 - 2010. As the data was sorted according to the data, I could create an approximately accurate indication of the specific dates for each observation. The date variable was generated using the _month_ and _day_of_week_ variables. The accuracy of those was validated and as contacts were done almost daily from March till December, the generated dates fitted the calendar really well such that the month has the correct number of days and that the day of month was coincided on the correct day of week. However, only the period around september/october wasnt clear as there seemed to be a break in the marketing campaign. However it was determined that this wouldnt affect the findingds from the time series. Down below is a graph that shows the total number of contacts performed per week. as the graph shows, Most of the contact, which is actually 67%, was done in 2008.
