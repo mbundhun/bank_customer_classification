@@ -46,5 +46,10 @@ With these many datapoints, it is more difficult to find any pattern from the sc
 
 Down below is a heatmap to show the correlation between each numeric variables. 
 ![image](https://user-images.githubusercontent.com/48698645/110239633-3fd18280-7f48-11eb-822d-049aab25d4ac.png)
-There is some correlation amongst the economic and social features, except for consumer confidence index, and a slight negative correlation between _pdays_ and _previous_. Nothing so unexpected there. (how exactly are the economic and social features defined? why is consumer confidence index not correlated with the other features)
+There is some correlation amongst the economic and social features, except for consumer confidence index, and a slight negative correlation between _pdays_ and _previous_. Nothing so unexpected there. (how exactly are the economic and social features defined? why is consumer confidence index not correlated with the other features)/
+
+Down below is a heatmap to show the correlation/association betweeen each categorical variable. This was done using Cramer's V.
+![image](https://user-images.githubusercontent.com/48698645/110241626-1158a500-7f52-11eb-9d4e-e17d39cf270c.png)
+There is a weak association between _education level_ and _job_, which is expected. Moreover, stronger association between _housing_ and _loan_, which means that clients who tend to have both loans at the same time. Also, there is a strong association between _contact_ and _month_.
+
 
