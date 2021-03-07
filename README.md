@@ -46,5 +46,5 @@ With these many datapoints, it is more difficult to find any pattern from the sc
 
 Down below is a heatmap to show the correlation between each numeric variables. 
 ![image](https://user-images.githubusercontent.com/48698645/110239633-3fd18280-7f48-11eb-822d-049aab25d4ac.png)
-There is some correlation amongst the economic and social features and a negative correlation between _pdays_ and _previous_. Nothing unexpected there.
+There is some correlation amongst the economic and social features, except for consumer confidence index, and a slight negative correlation between _pdays_ and _previous_. Nothing unexpected there.
 
