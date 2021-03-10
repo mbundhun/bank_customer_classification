@@ -55,6 +55,10 @@ Down below is a pairplot of the economic and social features.
 ![image](https://user-images.githubusercontent.com/48698645/110147550-1d225b00-7ddc-11eb-8a33-92db167383d0.png)
 With these many datapoints, it is more difficult to find any pattern from the scatterplots. The density plots are more interesting to look at. We see that clients older than 60 are more interested in a term deposit on average. Another interesting finding is that it doesnt help to contact the client more than 23 times in this campaign, as no client contacted more than 23 times subscribed to the term deposit. So this is a improvement that the bank can already do for their next campaign. It is not so interesting to look at the density plot of pdays. From the density of the economic and social variables, clients are more likely to subscribe when the employment variation rate , the euribor and the nr. of employed is lower, and when the consumer confidence index is higher. (is this what we expected?)
 
+And what about the share of clients who subscribed to the term deposit, based on the categorical features. Down below is a stacked barchart that gives us an idea. So when it comes to differentiating between between the customers behaviour towards subscribing to a term deposit, these following featues seem important: job, marital status, education, housing (loan), default, poutcome and contact method.
+![image](https://user-images.githubusercontent.com/48698645/110681010-9acdd880-81d9-11eb-8ab1-1f1fb23c5afc.png)
+
+
 Down below is a heatmap to show the correlation between each numeric variables. 
 ![image](https://user-images.githubusercontent.com/48698645/110239633-3fd18280-7f48-11eb-822d-049aab25d4ac.png)
 There is some correlation amongst the economic and social features, except for consumer confidence index, and a slight negative correlation between _pdays_ and _previous_. Nothing so unexpected there. (how exactly are the economic and social features defined? why is consumer confidence index not correlated with the other features)/
